@@ -2,7 +2,7 @@
 <?php include('connection/connect.php'); ?>
 <?php
 //select a database to work with
-$selected = mysql_select_db("examples",$dbhandle) 
+$selected = mysql_select_db("pharmacy",$dbhandle) 
   or die("Could not select examples");
 ?>
 <?php
